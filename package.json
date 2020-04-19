@@ -1,0 +1,20 @@
+{
+	"name": "moment_bcryptJS_jwt",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"_moment": "nodemon _moment --watch",
+		"_bcrypt": "nodemon _bcrypt --watch",
+		"_jwt": "nodemon _jwt-simple --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^4.0.1",
+		"jwt-simple": "^0.5.6",
+		"moment": "^2.24.0"
+	}
+}
